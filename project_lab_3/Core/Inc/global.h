@@ -18,13 +18,13 @@ extern int tempYELLOW;
 
 extern int status;
 
-#define INIT 1
+#define INIT      1
 #define RED_GREEN 2
 #define RED_AMBER 3
 #define GREEN_RED 4
 #define AMBER_RED 5
 
-#define AUTO	10
+#define AUTO   	  10
 #define MAN_MODE1 11
 #define MAN_MODE2 12
 #define MAN_MODE3 13

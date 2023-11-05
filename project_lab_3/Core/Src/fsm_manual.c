@@ -22,7 +22,6 @@ void fsm_manual()
 			status = INIT;
 			setTimer1(timeGREEN*1000);
 			setTimer2(1000);
-			updateClockBuffer(timeRED--, timeGREEN--);
 			if(is_button_pressed(0) == 1)
 			{
 				status = MAN_MODE1;
