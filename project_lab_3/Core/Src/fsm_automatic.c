@@ -45,6 +45,7 @@ void fsm_automatic()
             if(is_button_pressed(0) == 1)
             {
             	status = MAN_MODE1;
+            	setTimer1(250);
             }
             break;
 
@@ -70,6 +71,7 @@ void fsm_automatic()
             if(is_button_pressed(0) == 1)
             {
             	status = MAN_MODE1;
+            	setTimer1(250);
             }
             break;
 
@@ -95,6 +97,7 @@ void fsm_automatic()
             if(is_button_pressed(0) == 1)
             {
             	status = MAN_MODE1;
+            	setTimer1(250);
             }
             break;
 
@@ -120,6 +123,7 @@ void fsm_automatic()
             if(is_button_pressed(0) == 1)
             {
             	status = MAN_MODE1;
+            	setTimer1(250);
             }
             break;
 

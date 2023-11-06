@@ -33,7 +33,9 @@ void button_reading ( void ) {
 	for ( char i = 0; i < N0_OF_BUTTONS ; i++) 
 	{
 		debounceButtonBuffer2[i] = debounceButtonBuffer1[i];
+		tao mot mang chua 3 phan tu
 		switch(i)
+
 		{
 			case 0:
 				debounceButtonBuffer1[i] = HAL_GPIO_ReadPin (BUTTON0_GPIO_Port , BUTTON0_Pin );
